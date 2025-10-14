@@ -13,22 +13,19 @@ int main() {
     socklen_t addr_len = sizeof(servaddr);
     char buffer[BUFFER_SIZE];
 
-    // 1️⃣ Create socket
     sockfd = socket(AF_INET, SOCK_DGRAM, 0);
     if (sockfd < 0) {
         perror("Socket creation failed");
         return 1;
     }
 
-    // 2️⃣ Setup server address
     memset(&servaddr, 0, sizeof(servaddr));
     servaddr.sin_family = AF_INET;
     servaddr.sin_port = htons(PORT);
-    inet_pton(AF_INET, "192.168.137.5", &servaddr.sin_addr); // 🔁 Pi IP
+    inet_pton(AF_INET, "192.168.137.5", &servaddr.sin_addr);
 
-    std::cout << "✅ UDP Client started (type 'exit' to quit)\n";
+    std::cout << "UDP Client started (type 'exit' to quit)\n";
 
-    // 3️⃣ Thread for receiving messages
     std::thread recvThread([&]() {
         while (true) {
             memset(buffer, 0, BUFFER_SIZE);
@@ -39,12 +36,11 @@ int main() {
             }
 
             buffer[len] = '\0';
-            std::cout << "\n📩 Server: " << buffer << std::endl;
+            std::cout << "\n Server: " << buffer << std::endl;
             std::cout << "Client> " << std::flush;
         }
     });
 
-    // 4️⃣ Thread for sending messages
     std::thread sendThread([&]() {
         std::string msg;
         while (true) {
