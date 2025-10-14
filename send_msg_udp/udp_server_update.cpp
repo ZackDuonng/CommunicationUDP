@@ -14,20 +14,20 @@ int main() {
     char buffer[BUFFER_SIZE];
     bool clientConnected = false;
 
-    // 1️⃣ Create socket
+    // Create socket
     sockfd = socket(AF_INET, SOCK_DGRAM, 0);
     if (sockfd < 0) {
         perror("Socket creation failed");
         return 1;
     }
 
-    // 2️⃣ Setup server address
+    // Setup server address
     memset(&serverAddr, 0, sizeof(serverAddr));
     serverAddr.sin_family = AF_INET;
     serverAddr.sin_addr.s_addr = INADDR_ANY;
     serverAddr.sin_port = htons(PORT);
 
-    // 3️⃣ Bind
+    // Bind
     if (bind(sockfd, (const struct sockaddr *)&serverAddr, sizeof(serverAddr)) < 0) {
         perror("Bind failed");
         close(sockfd);
@@ -36,7 +36,7 @@ int main() {
 
     std::cout << " UDP Server listening on port " << PORT << "...\n";
 
-    // 4️⃣ Thread for receiving data
+    // Thread for receiving data
     std::thread recvThread([&]() {
         while (true) {
             memset(buffer, 0, BUFFER_SIZE);
@@ -54,7 +54,7 @@ int main() {
         }
     });
 
-    // 5️⃣ Thread for sending data (user input)
+    // Thread for sending data (user input)
     std::thread sendThread([&]() {
         std::string msg;
         while (true) {
