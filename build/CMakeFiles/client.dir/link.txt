@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/client.dir/udp_client_update.cpp.o  -o client  -lpthread 

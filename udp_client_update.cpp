@@ -22,7 +22,7 @@ int main() {
     memset(&servaddr, 0, sizeof(servaddr));
     servaddr.sin_family = AF_INET;
     servaddr.sin_port = htons(PORT);
-    inet_pton(AF_INET, "192.168.137.5", &servaddr.sin_addr);
+    inet_pton(AF_INET, "192.168.15.53", &servaddr.sin_addr);
 
     std::cout << "UDP Client started (type 'exit' to quit)\n";
 

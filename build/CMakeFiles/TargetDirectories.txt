@@ -1,0 +1,3 @@
+/home/duongthai/Documents/build/CMakeFiles/rebuild_cache.dir
+/home/duongthai/Documents/build/CMakeFiles/edit_cache.dir
+/home/duongthai/Documents/build/CMakeFiles/client.dir

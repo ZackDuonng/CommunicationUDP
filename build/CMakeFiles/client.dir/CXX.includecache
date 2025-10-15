@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/duongthai/Documents/udp_client_update.cpp
+iostream
+-
+cstring
+-
+unistd.h
+-
+arpa/inet.h
+-
+thread
+-
+
