@@ -11,9 +11,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #Tim goi thu vien
 find_package(Threads REQUIRED)
 
-#Tao file thuc thi tu file nguon
-add_executable(udp_server udp_server_update.cpp)
+#Tao file thuc thi tu tat ca cac file .cpp can thiet
+add_executable(server_app main.cpp src/UDPServer.cpp)
+
+target_include_directories(server_app PRIVATE ${PROJECT_SOURCE_DIR}/include)
 
 #Lien ket file thuc thi voi thu vien pthread cua he thong
-target_link_libraries(udp_server PRIVATE Threads::Threads)
-
+target_link_libraries(server_app PRIVATE Threads::Threads)
