@@ -1,0 +1,3 @@
+/home/thanhtai/GREMSY/build/CMakeFiles/rebuild_cache.dir
+/home/thanhtai/GREMSY/build/CMakeFiles/edit_cache.dir
+/home/thanhtai/GREMSY/build/CMakeFiles/udp_server.dir

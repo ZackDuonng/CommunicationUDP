@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thanhtai/GREMSY/udp_server_update.cpp
+iostream
+-
+cstring
+-
+unistd.h
+-
+arpa/inet.h
+-
+thread
+-
+
