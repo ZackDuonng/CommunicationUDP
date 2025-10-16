@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/duongthai/project2/CommunicationUDP/include/UDPServer.h
+string
+-
+thread
+-
+arpa/inet.h
+-
+
+/home/duongthai/project2/CommunicationUDP/include/test_file.h
+stdio.h
+-
+
+/home/duongthai/project2/main.cpp
+CommunicationUDP/include/UDPServer.h
+/home/duongthai/project2/CommunicationUDP/include/UDPServer.h
+CommunicationUDP/include/test_file.h
+/home/duongthai/project2/CommunicationUDP/include/test_file.h
+iostream
+-
+

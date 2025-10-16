@@ -1,0 +1,6 @@
+/home/duongthai/project2/build/CMakeFiles/rebuild_cache.dir
+/home/duongthai/project2/build/CMakeFiles/edit_cache.dir
+/home/duongthai/project2/build/CMakeFiles/udp_server.dir
+/home/duongthai/project2/build/CommunicationUDP/CMakeFiles/edit_cache.dir
+/home/duongthai/project2/build/CommunicationUDP/CMakeFiles/rebuild_cache.dir
+/home/duongthai/project2/build/CommunicationUDP/CMakeFiles/my_shared_lib.dir
