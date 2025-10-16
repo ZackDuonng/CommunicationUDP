@@ -79,7 +79,7 @@ udp_server_EXTERNAL_OBJECTS =
 
 udp_server: CMakeFiles/udp_server.dir/main.cpp.o
 udp_server: CMakeFiles/udp_server.dir/build.make
-udp_server: CommunicationUDP/libmy_shared_lib.so
+udp_server: CommunicationUDP/libmy_shared_lib.a
 udp_server: CMakeFiles/udp_server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/duongthai/project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable udp_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/udp_server.dir/link.txt --verbose=$(VERBOSE)

@@ -9,11 +9,6 @@ set(CMAKE_DEPENDS_CHECK_C
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_C
-  "my_shared_lib_EXPORTS"
-  )
-
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../CommunicationUDP/include"
@@ -23,11 +18,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/duongthai/project2/CommunicationUDP/src/UDPServer.cpp" "/home/duongthai/project2/build/CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/UDPServer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "my_shared_lib_EXPORTS"
-  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

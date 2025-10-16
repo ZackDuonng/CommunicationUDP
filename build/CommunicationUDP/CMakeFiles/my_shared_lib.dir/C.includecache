@@ -6,11 +6,3 @@
 
 #IncludeRegexTransform: 
 
-../CommunicationUDP/include/test_file.h
-stdio.h
--
-
-/home/duongthai/project2/CommunicationUDP/src/test_file.c
-test_file.h
-/home/duongthai/project2/CommunicationUDP/src/test_file.h
-

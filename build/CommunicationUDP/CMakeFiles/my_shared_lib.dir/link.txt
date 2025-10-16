@@ -1,1 +1,2 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libmy_shared_lib.so -o libmy_shared_lib.so CMakeFiles/my_shared_lib.dir/src/TCPServer.cpp.o CMakeFiles/my_shared_lib.dir/src/UDPServer.cpp.o CMakeFiles/my_shared_lib.dir/src/test_file.c.o 
+/usr/bin/ar qc libmy_shared_lib.a  CMakeFiles/my_shared_lib.dir/src/TCPServer.cpp.o CMakeFiles/my_shared_lib.dir/src/UDPServer.cpp.o CMakeFiles/my_shared_lib.dir/src/test_file.c.o
+/usr/bin/ranlib libmy_shared_lib.a

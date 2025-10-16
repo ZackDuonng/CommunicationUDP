@@ -73,6 +73,7 @@ clean: CommunicationUDP/clean
 # Directory level rules for directory CommunicationUDP
 
 # Recursive "all" directory target.
+CommunicationUDP/all: CommunicationUDP/CMakeFiles/server_app.dir/all
 CommunicationUDP/all: CommunicationUDP/CMakeFiles/my_shared_lib.dir/all
 
 .PHONY : CommunicationUDP/all
@@ -83,6 +84,7 @@ CommunicationUDP/preinstall:
 .PHONY : CommunicationUDP/preinstall
 
 # Recursive "clean" directory target.
+CommunicationUDP/clean: CommunicationUDP/CMakeFiles/server_app.dir/clean
 CommunicationUDP/clean: CommunicationUDP/CMakeFiles/my_shared_lib.dir/clean
 
 .PHONY : CommunicationUDP/clean
@@ -94,7 +96,7 @@ CommunicationUDP/clean: CommunicationUDP/CMakeFiles/my_shared_lib.dir/clean
 CMakeFiles/udp_server.dir/all: CommunicationUDP/CMakeFiles/my_shared_lib.dir/all
 	$(MAKE) -f CMakeFiles/udp_server.dir/build.make CMakeFiles/udp_server.dir/depend
 	$(MAKE) -f CMakeFiles/udp_server.dir/build.make CMakeFiles/udp_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/duongthai/project2/build/CMakeFiles --progress-num=5,6 "Built target udp_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/duongthai/project2/build/CMakeFiles --progress-num=7,8 "Built target udp_server"
 .PHONY : CMakeFiles/udp_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -113,6 +115,33 @@ udp_server: CMakeFiles/udp_server.dir/rule
 CMakeFiles/udp_server.dir/clean:
 	$(MAKE) -f CMakeFiles/udp_server.dir/build.make CMakeFiles/udp_server.dir/clean
 .PHONY : CMakeFiles/udp_server.dir/clean
+
+#=============================================================================
+# Target rules for target CommunicationUDP/CMakeFiles/server_app.dir
+
+# All Build rule for target.
+CommunicationUDP/CMakeFiles/server_app.dir/all: CommunicationUDP/CMakeFiles/my_shared_lib.dir/all
+	$(MAKE) -f CommunicationUDP/CMakeFiles/server_app.dir/build.make CommunicationUDP/CMakeFiles/server_app.dir/depend
+	$(MAKE) -f CommunicationUDP/CMakeFiles/server_app.dir/build.make CommunicationUDP/CMakeFiles/server_app.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/duongthai/project2/build/CMakeFiles --progress-num=5,6 "Built target server_app"
+.PHONY : CommunicationUDP/CMakeFiles/server_app.dir/all
+
+# Build rule for subdir invocation for target.
+CommunicationUDP/CMakeFiles/server_app.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duongthai/project2/build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/CMakeFiles/server_app.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duongthai/project2/build/CMakeFiles 0
+.PHONY : CommunicationUDP/CMakeFiles/server_app.dir/rule
+
+# Convenience name for target.
+server_app: CommunicationUDP/CMakeFiles/server_app.dir/rule
+
+.PHONY : server_app
+
+# clean rule for target.
+CommunicationUDP/CMakeFiles/server_app.dir/clean:
+	$(MAKE) -f CommunicationUDP/CMakeFiles/server_app.dir/build.make CommunicationUDP/CMakeFiles/server_app.dir/clean
+.PHONY : CommunicationUDP/CMakeFiles/server_app.dir/clean
 
 #=============================================================================
 # Target rules for target CommunicationUDP/CMakeFiles/my_shared_lib.dir

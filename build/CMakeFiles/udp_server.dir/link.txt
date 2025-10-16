@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/udp_server.dir/main.cpp.o  -o udp_server  -Wl,-rpath,/home/duongthai/project2/build/CommunicationUDP CommunicationUDP/libmy_shared_lib.so -lpthread 
+/usr/bin/c++     CMakeFiles/udp_server.dir/main.cpp.o  -o udp_server  CommunicationUDP/libmy_shared_lib.a -lpthread 
