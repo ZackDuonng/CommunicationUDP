@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/server_app.dir/main.cpp.o  -o server_app  libmy_shared_lib.a -lpthread 
+/usr/bin/c++  -g -O0 -fsanitize=address -Wall -Wextra   CMakeFiles/server_app.dir/main.cpp.o  -o server_app  -Wl,-rpath,/home/thanhtai/GREMSY/build/CommunicationUDP libmy_shared_lib.so -lpthread 

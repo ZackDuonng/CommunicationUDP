@@ -6,3 +6,11 @@
 
 #IncludeRegexTransform: 
 
+../CommunicationUDP/include/test_file.h
+stdio.h
+-
+
+/home/thanhtai/GREMSY/CommunicationUDP/src/test_file.c
+test_file.h
+/home/thanhtai/GREMSY/CommunicationUDP/src/test_file.h
+

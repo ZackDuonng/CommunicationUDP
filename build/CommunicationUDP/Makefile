@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duongthai/project2
+CMAKE_SOURCE_DIR = /home/thanhtai/GREMSY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duongthai/project2/build
+CMAKE_BINARY_DIR = /home/thanhtai/GREMSY/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/duongthai/project2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/duongthai/project2/build/CMakeFiles /home/duongthai/project2/build/CommunicationUDP/CMakeFiles/progress.marks
-	cd /home/duongthai/project2/build && $(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duongthai/project2/build/CMakeFiles 0
+	cd /home/thanhtai/GREMSY/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/thanhtai/GREMSY/build/CMakeFiles /home/thanhtai/GREMSY/build/CommunicationUDP/CMakeFiles/progress.marks
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thanhtai/GREMSY/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/duongthai/project2/build && $(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/clean
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/duongthai/project2/build && $(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/preinstall
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/duongthai/project2/build && $(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/preinstall
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/duongthai/project2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/thanhtai/GREMSY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 CommunicationUDP/CMakeFiles/server_app.dir/rule:
-	cd /home/duongthai/project2/build && $(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/CMakeFiles/server_app.dir/rule
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/CMakeFiles/server_app.dir/rule
 .PHONY : CommunicationUDP/CMakeFiles/server_app.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ server_app: CommunicationUDP/CMakeFiles/server_app.dir/rule
 
 # fast build rule for target.
 server_app/fast:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/server_app.dir/build.make CommunicationUDP/CMakeFiles/server_app.dir/build
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/server_app.dir/build.make CommunicationUDP/CMakeFiles/server_app.dir/build
 .PHONY : server_app/fast
 
 # Convenience name for target.
 CommunicationUDP/CMakeFiles/my_shared_lib.dir/rule:
-	cd /home/duongthai/project2/build && $(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/CMakeFiles/my_shared_lib.dir/rule
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CMakeFiles/Makefile2 CommunicationUDP/CMakeFiles/my_shared_lib.dir/rule
 .PHONY : CommunicationUDP/CMakeFiles/my_shared_lib.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ my_shared_lib: CommunicationUDP/CMakeFiles/my_shared_lib.dir/rule
 
 # fast build rule for target.
 my_shared_lib/fast:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/build
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/build
 .PHONY : my_shared_lib/fast
 
 main.o: main.cpp.o
@@ -192,7 +192,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/server_app.dir/build.make CommunicationUDP/CMakeFiles/server_app.dir/main.cpp.o
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/server_app.dir/build.make CommunicationUDP/CMakeFiles/server_app.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -201,7 +201,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/server_app.dir/build.make CommunicationUDP/CMakeFiles/server_app.dir/main.cpp.i
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/server_app.dir/build.make CommunicationUDP/CMakeFiles/server_app.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -210,7 +210,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/server_app.dir/build.make CommunicationUDP/CMakeFiles/server_app.dir/main.cpp.s
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/server_app.dir/build.make CommunicationUDP/CMakeFiles/server_app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/TCPServer.o: src/TCPServer.cpp.o
@@ -219,7 +219,7 @@ src/TCPServer.o: src/TCPServer.cpp.o
 
 # target to build an object file
 src/TCPServer.cpp.o:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/TCPServer.cpp.o
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/TCPServer.cpp.o
 .PHONY : src/TCPServer.cpp.o
 
 src/TCPServer.i: src/TCPServer.cpp.i
@@ -228,7 +228,7 @@ src/TCPServer.i: src/TCPServer.cpp.i
 
 # target to preprocess a source file
 src/TCPServer.cpp.i:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/TCPServer.cpp.i
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/TCPServer.cpp.i
 .PHONY : src/TCPServer.cpp.i
 
 src/TCPServer.s: src/TCPServer.cpp.s
@@ -237,7 +237,7 @@ src/TCPServer.s: src/TCPServer.cpp.s
 
 # target to generate assembly for a file
 src/TCPServer.cpp.s:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/TCPServer.cpp.s
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/TCPServer.cpp.s
 .PHONY : src/TCPServer.cpp.s
 
 src/UDPServer.o: src/UDPServer.cpp.o
@@ -246,7 +246,7 @@ src/UDPServer.o: src/UDPServer.cpp.o
 
 # target to build an object file
 src/UDPServer.cpp.o:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/UDPServer.cpp.o
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/UDPServer.cpp.o
 .PHONY : src/UDPServer.cpp.o
 
 src/UDPServer.i: src/UDPServer.cpp.i
@@ -255,7 +255,7 @@ src/UDPServer.i: src/UDPServer.cpp.i
 
 # target to preprocess a source file
 src/UDPServer.cpp.i:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/UDPServer.cpp.i
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/UDPServer.cpp.i
 .PHONY : src/UDPServer.cpp.i
 
 src/UDPServer.s: src/UDPServer.cpp.s
@@ -264,7 +264,7 @@ src/UDPServer.s: src/UDPServer.cpp.s
 
 # target to generate assembly for a file
 src/UDPServer.cpp.s:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/UDPServer.cpp.s
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/UDPServer.cpp.s
 .PHONY : src/UDPServer.cpp.s
 
 src/test_file.o: src/test_file.c.o
@@ -273,7 +273,7 @@ src/test_file.o: src/test_file.c.o
 
 # target to build an object file
 src/test_file.c.o:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/test_file.c.o
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/test_file.c.o
 .PHONY : src/test_file.c.o
 
 src/test_file.i: src/test_file.c.i
@@ -282,7 +282,7 @@ src/test_file.i: src/test_file.c.i
 
 # target to preprocess a source file
 src/test_file.c.i:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/test_file.c.i
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/test_file.c.i
 .PHONY : src/test_file.c.i
 
 src/test_file.s: src/test_file.c.s
@@ -291,7 +291,7 @@ src/test_file.s: src/test_file.c.s
 
 # target to generate assembly for a file
 src/test_file.c.s:
-	cd /home/duongthai/project2/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/test_file.c.s
+	cd /home/thanhtai/GREMSY/build && $(MAKE) -f CommunicationUDP/CMakeFiles/my_shared_lib.dir/build.make CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/test_file.c.s
 .PHONY : src/test_file.c.s
 
 # Help Target
@@ -331,6 +331,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/duongthai/project2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/thanhtai/GREMSY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

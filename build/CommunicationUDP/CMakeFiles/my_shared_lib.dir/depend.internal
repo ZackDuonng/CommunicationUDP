@@ -3,9 +3,9 @@
 
 CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/test_file.c.o
  ../CommunicationUDP/include/test_file.h
- /home/duongthai/project2/CommunicationUDP/src/test_file.c
+ /home/thanhtai/GREMSY/CommunicationUDP/src/test_file.c
 CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/TCPServer.cpp.o
- /home/duongthai/project2/CommunicationUDP/src/TCPServer.cpp
+ /home/thanhtai/GREMSY/CommunicationUDP/src/TCPServer.cpp
 CommunicationUDP/CMakeFiles/my_shared_lib.dir/src/UDPServer.cpp.o
  ../CommunicationUDP/include/UDPServer.h
- /home/duongthai/project2/CommunicationUDP/src/UDPServer.cpp
+ /home/thanhtai/GREMSY/CommunicationUDP/src/UDPServer.cpp

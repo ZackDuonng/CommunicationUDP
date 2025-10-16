@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/udp_server.dir/main.cpp.o  -o udp_server  CommunicationUDP/libmy_shared_lib.a -lpthread 
+/usr/bin/c++  -g -O0 -fsanitize=address -Wall -Wextra   CMakeFiles/udp_server.dir/main.cpp.o  -o udp_server  -Wl,-rpath,/home/thanhtai/GREMSY/build/CommunicationUDP: CommunicationUDP/libmy_shared_lib.so -lpthread 

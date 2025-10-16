@@ -18,11 +18,11 @@ arpa/inet.h
 stdio.h
 -
 
-/home/duongthai/project2/CommunicationUDP/main.cpp
+/home/thanhtai/GREMSY/CommunicationUDP/main.cpp
 UDPServer.h
-/home/duongthai/project2/CommunicationUDP/UDPServer.h
+/home/thanhtai/GREMSY/CommunicationUDP/UDPServer.h
 test_file.h
-/home/duongthai/project2/CommunicationUDP/test_file.h
+/home/thanhtai/GREMSY/CommunicationUDP/test_file.h
 iostream
 -
 

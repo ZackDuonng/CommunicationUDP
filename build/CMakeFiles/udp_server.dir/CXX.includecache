@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/duongthai/project2/CommunicationUDP/include/UDPServer.h
+/home/thanhtai/GREMSY/CommunicationUDP/include/UDPServer.h
 string
 -
 thread
@@ -14,15 +14,15 @@ thread
 arpa/inet.h
 -
 
-/home/duongthai/project2/CommunicationUDP/include/test_file.h
+/home/thanhtai/GREMSY/CommunicationUDP/include/test_file.h
 stdio.h
 -
 
-/home/duongthai/project2/main.cpp
+/home/thanhtai/GREMSY/main.cpp
 CommunicationUDP/include/UDPServer.h
-/home/duongthai/project2/CommunicationUDP/include/UDPServer.h
+/home/thanhtai/GREMSY/CommunicationUDP/include/UDPServer.h
 CommunicationUDP/include/test_file.h
-/home/duongthai/project2/CommunicationUDP/include/test_file.h
+/home/thanhtai/GREMSY/CommunicationUDP/include/test_file.h
 iostream
 -
 

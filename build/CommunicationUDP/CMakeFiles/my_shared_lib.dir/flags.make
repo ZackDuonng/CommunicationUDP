@@ -3,15 +3,15 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS =  
+C_FLAGS = -g -fPIC  
 
-C_DEFINES = 
+C_DEFINES = -Dmy_shared_lib_EXPORTS
 
-C_INCLUDES = -I/home/duongthai/project2/CommunicationUDP/include 
+C_INCLUDES = -I/home/thanhtai/GREMSY/CommunicationUDP/include 
 
-CXX_FLAGS =   -std=gnu++11
+CXX_FLAGS = -g -O0 -fsanitize=address -Wall -Wextra -fPIC   -std=gnu++11
 
-CXX_DEFINES = 
+CXX_DEFINES = -Dmy_shared_lib_EXPORTS
 
-CXX_INCLUDES = -I/home/duongthai/project2/CommunicationUDP/include 
+CXX_INCLUDES = -I/home/thanhtai/GREMSY/CommunicationUDP/include 
 
