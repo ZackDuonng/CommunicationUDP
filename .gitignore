@@ -1,4 +1,5 @@
 
+
 # Các file hệ thống của macOS
 .DS_Store
 .AppleDouble
@@ -103,3 +104,23 @@ Makefile.in
 .env
 .env.*
 !.env.example
+=======
+# Thư mục build do CMake tạo ra
+build/
+
+# Các file tạm do trình biên dịch tạo ra
+*.o
+*.obj
+
+# File thực thi cuối cùng (thay 'my_app' bằng tên chương trình của bạn)
+my_app
+my_app.exe
+
+# File cấu hình của các IDE phổ biến
+.vscode/
+.idea/
+
+# File log hoặc file tạm
+*.log
+*.tmp
+
