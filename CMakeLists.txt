@@ -4,6 +4,11 @@ project(UDPProject)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Debug
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_FLAGS_DEBUG "-g -O0 -fsanitize=address -Wall -Wextra")
+
+
 find_package(Threads REQUIRED)
 
 add_subdirectory(CommunicationUDP)

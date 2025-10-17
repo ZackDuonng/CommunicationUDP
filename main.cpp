@@ -5,6 +5,9 @@
 #define PORT 8080
 
 int main() {
+    int *ptr  = new int[10];
+    std::cout << "Address of allocated memory: " << ptr[11] << std::endl;
+    return 0;
     try {
         print();
         UDPServer server(PORT);
@@ -14,7 +17,5 @@ int main() {
         return 1;
     }
     return 0;
-    int *ptr  = new int[10];
-    std::cout << "Address of allocated memory: " << ptr[11] << std::endl;
-    return 0;
+    
 }

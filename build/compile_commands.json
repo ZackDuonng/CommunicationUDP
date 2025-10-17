@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/thanhtai/GREMSY/build",
+  "command": "/usr/bin/c++   -I/home/thanhtai/GREMSY/CommunicationUDP/include  -g -O0 -fsanitize=address -Wall -Wextra   -std=gnu++11 -o CMakeFiles/udp_server.dir/main.cpp.o -c /home/thanhtai/GREMSY/main.cpp",
+  "file": "/home/thanhtai/GREMSY/main.cpp"
+},
+{
+  "directory": "/home/thanhtai/GREMSY/build/CommunicationUDP",
+  "command": "/usr/bin/c++   -I/home/thanhtai/GREMSY/CommunicationUDP/include  -g -O0 -fsanitize=address -Wall -Wextra   -std=gnu++11 -o CMakeFiles/server_app.dir/main.cpp.o -c /home/thanhtai/GREMSY/CommunicationUDP/main.cpp",
+  "file": "/home/thanhtai/GREMSY/CommunicationUDP/main.cpp"
+},
+{
+  "directory": "/home/thanhtai/GREMSY/build/CommunicationUDP",
+  "command": "/usr/bin/c++  -Dmy_shared_lib_EXPORTS -I/home/thanhtai/GREMSY/CommunicationUDP/include  -g -O0 -fsanitize=address -Wall -Wextra -fPIC   -std=gnu++11 -o CMakeFiles/my_shared_lib.dir/src/TCPServer.cpp.o -c /home/thanhtai/GREMSY/CommunicationUDP/src/TCPServer.cpp",
+  "file": "/home/thanhtai/GREMSY/CommunicationUDP/src/TCPServer.cpp"
+},
+{
+  "directory": "/home/thanhtai/GREMSY/build/CommunicationUDP",
+  "command": "/usr/bin/c++  -Dmy_shared_lib_EXPORTS -I/home/thanhtai/GREMSY/CommunicationUDP/include  -g -O0 -fsanitize=address -Wall -Wextra -fPIC   -std=gnu++11 -o CMakeFiles/my_shared_lib.dir/src/UDPServer.cpp.o -c /home/thanhtai/GREMSY/CommunicationUDP/src/UDPServer.cpp",
+  "file": "/home/thanhtai/GREMSY/CommunicationUDP/src/UDPServer.cpp"
+},
+{
+  "directory": "/home/thanhtai/GREMSY/build/CommunicationUDP",
+  "command": "/usr/bin/cc -Dmy_shared_lib_EXPORTS -I/home/thanhtai/GREMSY/CommunicationUDP/include  -g -fPIC   -o CMakeFiles/my_shared_lib.dir/src/test_file.c.o   -c /home/thanhtai/GREMSY/CommunicationUDP/src/test_file.c",
+  "file": "/home/thanhtai/GREMSY/CommunicationUDP/src/test_file.c"
+}
+]
