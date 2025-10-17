@@ -1,0 +1,126 @@
+
+
+# Các file hệ thống của macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Các fileサムネイル (Thumbnail) của Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Các file rác từ các editor
+*~
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.orig
+
+# Cấu hình của các IDE và editor phổ biến
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+*.kdev4
+
+### --- Ngôn ngữ biên dịch (C, C++, etc.) --- ###
+
+# File thực thi và các file đối tượng (object files)
+*.out
+*.exe
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.lib
+
+# Các file sinh ra trong quá trình biên dịch
+*.log
+*.elf
+*.map
+*.dep
+*.d
+
+### --- Hệ thống Build và Công cụ --- ###
+
+# Thư mục build
+build/
+Build/
+bin/
+Bin/
+obj/
+Obj/
+Debug/
+Release/
+install/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeLists.txt.user
+CTestTestfile.cmake
+Makefile
+*.cbp
+
+# Autotools
+configure
+aclocal.m4
+autom4te.cache/
+config.h.in
+config.status
+
+# Make
+Makefile.in
+
+### --- Các file nén --- ###
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+### --- File log và dữ liệu --- ###
+*.log
+*.log.*
+*.gdb_history
+*.sqlite3
+*.db
+
+### --- Thư mục chứa các dependency (quản lý cục bộ) --- ###
+# Nếu bạn tải thư viện về và đặt trong dự án, hãy bỏ qua chúng
+# ví dụ: deps/, vendor/
+# deps/
+# vendor/
+
+### --- File cấu hình môi trường --- ###
+# Chứa các biến môi trường hoặc các khóa bí mật
+.env
+.env.*
+!.env.example
+=======
+# Thư mục build do CMake tạo ra
+build/
+
+# Các file tạm do trình biên dịch tạo ra
+*.o
+*.obj
+
+# File thực thi cuối cùng (thay 'my_app' bằng tên chương trình của bạn)
+my_app
+my_app.exe
+
+# File cấu hình của các IDE phổ biến
+.vscode/
+.idea/
+
+# File log hoặc file tạm
+*.log
+*.tmp
+
